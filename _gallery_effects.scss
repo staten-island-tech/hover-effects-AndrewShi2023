@@ -1,0 +1,45 @@
+.money-img-container {
+    width: 60vw;
+    height: 60vh;
+    position: relative;
+}
+   
+.emote {
+    position: absolute;
+    box-shadow: 0 1.5rem 1rem black;
+    transition: all 0.3s;
+    height: 15rem;
+    outline-offset: 1rem;
+}
+   
+.emote:hover {
+    transform: scale(2);
+    box-shadow: 0 3rem 1rem red;
+    outline: 1rem solid green;
+    z-index: 2;
+}
+   
+.money-img-container:hover .emote:not(:hover) {
+    transform: scale(0.8);
+    opacity: 0.3;
+}
+   
+.money-img-1 {
+    top: 8%;
+    right: 15%;
+}
+   
+.money-img-2 {
+    top: 15%;
+    right: 35%;
+}
+   
+.money-img-3 {
+    top: 50%;
+}
+   
+.money-img-4 {
+    top: 47%;
+    left: 20%;
+}
+   
